@@ -142,7 +142,7 @@ namespace Quan_ly_nhan_su
             cb_phongban.Text = (from p in data.PhongBans where p.MaPB == nv.MaPB select p.TenPb).FirstOrDefault();
             tb_quequan.Text = nv.QueQuan;
         }
-
+        //test
         private void cb_loaihd_SelectedIndexChanged(object sender, EventArgs e)
         {
             ComboBox combo = sender as ComboBox;
