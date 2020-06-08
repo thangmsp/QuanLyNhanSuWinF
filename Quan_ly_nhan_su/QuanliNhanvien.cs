@@ -65,6 +65,7 @@ namespace Quan_ly_nhan_su
                 cb_phongban.Items.Add(item.TenPb);
             }
         }
+        //test
         private void loadtenv()
         {
             var model = from p in data.NhanViens where p.isdelete==1 select p;
