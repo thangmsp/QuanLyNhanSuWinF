@@ -10,7 +10,7 @@ namespace Quan_ly_nhan_su
 {
     class DataNhanSu
     {
-        public static string connection = @"Data Source=DESKTOP-DJJS92G\SQLEXPRESS;Initial Catalog=QuanLiNhanSu;Integrated Security=True";
+        public static string connection = @"Data Source=DESKTOP-MASLDBK\SQLEXPRESS;Initial Catalog=QuanLiNhanSu;Integrated Security=True";
         public static DataSet Danhsach(string query)
         {
             DataSet data = new DataSet();
